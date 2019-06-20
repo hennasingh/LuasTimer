@@ -1,9 +1,10 @@
-package com.retailmotion.android.luastimer
+package com.retailmotion.android.luastimer.ui.forecast
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.retailmotion.android.luastimer.R
 
-class MainActivity : AppCompatActivity() {
+class ForecastActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

@@ -5,6 +5,9 @@ buildscript {
     repositories {
         google()
         jcenter()
+        maven {
+            url "https://jitpack.io"
+        }
         
     }
     dependencies {
@@ -19,10 +22,29 @@ allprojects {
     repositories {
         google()
         jcenter()
-        
     }
 }
 
 task clean(type: Delete) {
     delete rootProject.buildDir
+}
+
+ext{
+
+    // Lifecycle
+    lifecycle_version = '2.0.0'
+
+    // Reactive
+    rxjava_version = '2.2.3'
+    rxandroid_version = '2.1.0'
+
+    // Networking
+    retrofit_version = '2.4.0'
+    okhttp_version = '3.11.0'
+
+    // Dagger
+    dagger_version = '2.21'
+
+    //XML
+    tikXml_version = '0.8.13'
 }

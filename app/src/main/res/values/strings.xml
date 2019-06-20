@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">LuasTimer</string>
+    <string name="no_internet_error">Internet connection lost, please retry again</string>
 </resources>
