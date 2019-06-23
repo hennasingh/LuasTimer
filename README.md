@@ -2,7 +2,7 @@
 This is a mini Luas app that shows *Inbound* trams from Stillorgan and *Outbound* trams from Marlborough using [LuasAPI](https://data.gov.ie/dataset/luas-forecasting-api) based on the time the app is opened
 
 ### Overview
-Its a single screen app that displays station name, direction and has a refresh button to refresh the data
+Its a single screen app that uses MVVM and repository architecture pattern to display station name, direction of the trams and has a refresh button to refresh the data
 
 ### Libraries used in the Project
 - [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel)
