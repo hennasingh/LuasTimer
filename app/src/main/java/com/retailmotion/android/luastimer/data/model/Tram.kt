@@ -7,7 +7,7 @@ import com.tickaroo.tikxml.annotation.Xml
 data class Tram(
 
     @Attribute
-    var dueMins: Int,
+    var dueMins: String,
 
     @Attribute
     var destination: String

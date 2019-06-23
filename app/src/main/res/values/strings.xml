@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">LuasTimer</string>
     <string name="no_internet_error">Internet connection lost, please retry again</string>
+    <string name="serial_number">%$1d</string>
+    <string name="luas_green_line">Luas Green Line</string>
+    <string name="placeholder_station">Marlborough</string>
+    <string name="refresh">Refresh</string>
+    <string name="placeholder_direction">Outbound</string>
+    <string name="desc_background">Luas Image background</string>
+    <string name="placeholder_error">Http Error, please try again</string>
 </resources>

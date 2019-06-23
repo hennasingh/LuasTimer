@@ -16,4 +16,10 @@ class WebRepository @Inject constructor(
             .map {
                 it.direction
             }
+
+    fun doMarOutboundCall(action: String, stop: String, encrypt: Boolean): Single<List<Direction>> =
+        networkService.getMarOutbound(action, stop, encrypt)
+            .map {
+                it.direction
+            }
 }
