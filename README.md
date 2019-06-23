@@ -16,7 +16,7 @@ Its a single screen app that uses MVVM and repository architecture pattern to di
 
 **Nexus6P**
 
-<img src ="./images/forecast.png" width="200">
+<img src ="./images/forecast.png" width="300">
 
 
 
