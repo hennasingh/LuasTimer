@@ -8,14 +8,15 @@ Its a single screen app that displays station name, direction and has a refresh 
 - [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel)
 - [LiveData](https://developer.android.com/topic/libraries/architecture/livedata)
 - [TikXml Parser](https://github.com/Tickaroo/tikxml)
-- [Retrofit](https://square.github.io/retrofit/) for network
+- [Retrofit](https://square.github.io/retrofit/)
 - [Dagger](https://github.com/google/dagger)
 - [RxJava](https://github.com/ReactiveX/RxAndroid)
 
 ### Screenshots
 
 **Nexus6P**
-![Forecast Screen](/images/forecast.png)
+---| ---
+![Forecast Screen](/images/forecast.png)|
 
 
 
