@@ -16,7 +16,7 @@ Its a single screen app that displays station name, direction and has a refresh 
 
 **Nexus6P**
 
-![Forecast Screen]<img src ="./images/forecast.png" width="100">
+<img src ="./images/forecast.png" width="200">
 
 
 
