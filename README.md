@@ -16,9 +16,9 @@ Its a single screen app that uses MVVM and repository architecture pattern to di
 
 **Nexus6P**
 
-Stllorgan Inbound | Marlborough Outbound 
---- | ---
-![Stillorgan Stop](/images/forecast.png) | ![Marlborough Stop](/images/marStop.png)
+Stllorgan Inbound | Marlborough Outbound | New UI (Stillorgan Inbound)
+--- | --- | ---
+![Stillorgan Stop](/images/forecast.png) | ![Marlborough Stop](/images/marStop.png) | ![Stillorgan](/images/newSti.png)
 
 
 
@@ -27,7 +27,7 @@ Stllorgan Inbound | Marlborough Outbound
 
 - [ ] Write a test for ViewModel
 - [ ] Error Handling for Http Responses
-- [ ] Adding more Tram stops
+- [X] Updated UI
 
 
 ## License
