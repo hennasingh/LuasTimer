@@ -19,6 +19,12 @@ Its a single screen app that uses MVVM and repository architecture pattern to di
 <img src ="./images/forecast.png" width="300">
 
 
+### More Features to implement
+
+- [ ] Write a test for ViewModel
+- [ ] Error Handling for Http Responses
+- [ ] Adding more Tram stops
+
 
 ## License
 
