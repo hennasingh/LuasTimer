@@ -10,7 +10,6 @@ class ForecastViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
     val srNumber = itemView.tv_number
     val destination = itemView.tv_destination
     val dueMin = itemView.tv_mins
-    val number = 0
 
     fun bindValues(tram: Tram?, position: Int) {
         destination.text = tram?.destination

@@ -7,6 +7,10 @@ import javax.inject.Singleton
 @Singleton
 class NetworkHelper constructor(private val context: Context) {
 
+    companion object {
+        const val TAG = "NetworkHelper"
+    }
+
     fun isNetworkConnected(): Boolean {
         val connectivityManager = context.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
         val activeNetwork = connectivityManager.activeNetworkInfo

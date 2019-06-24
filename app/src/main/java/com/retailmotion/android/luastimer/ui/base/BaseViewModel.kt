@@ -30,6 +30,11 @@ abstract class BaseViewModel(
             false
         }
 
+    protected fun handleNetworkError(error: Throwable?) {
+        error?.let {
+            messageString.postValue(Resource.error(it.message))
+        }
+    }
 
     abstract fun onCreate()
 }

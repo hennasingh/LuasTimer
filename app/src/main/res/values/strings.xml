@@ -8,4 +8,8 @@
     <string name="placeholder_direction">Outbound</string>
     <string name="desc_background">Luas Image background</string>
     <string name="placeholder_error">Http Error, please try again</string>
+    <string name="sr_number">Sr</string>
+    <string name="destination">Destination</string>
+    <string name="duemins">dueMins</string>
+    <string name="minutes">%1$s mins</string>
 </resources>

@@ -91,6 +91,7 @@ class ForecastViewModel(
                                 }
                             },
                             {
+                                handleNetworkError(it)
                                 forecastLiveData.postValue(Resource.error())
                                 pbLoadingLiveData.postValue(false)
                             })
