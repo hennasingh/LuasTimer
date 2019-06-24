@@ -1,6 +1,6 @@
 package com.retailmotion.android.luastimer.utils.common
 
-class Resource<out T> private constructor(val status: Status, val data: T?) {
+class Resource<T> private constructor(val status: Status, val data: T?) {
 
     companion object {
         fun <T> success(data: T? = null): Resource<T> = Resource(Status.SUCCESS, data)

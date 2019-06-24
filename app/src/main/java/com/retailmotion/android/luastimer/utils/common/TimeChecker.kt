@@ -1,6 +1,5 @@
 package com.retailmotion.android.luastimer.utils.common
 
-import android.util.Log
 import java.util.*
 
 object TimeChecker {
@@ -12,7 +11,7 @@ object TimeChecker {
         val startOfDay = Calendar.getInstance()
         startOfDay.set(Calendar.HOUR_OF_DAY, 0)
         startOfDay.set(Calendar.MINUTE, 0)
-        startOfDay.set(Calendar.SECOND, 59)
+        startOfDay.set(Calendar.SECOND, 0)
 
         val midOfDay = Calendar.getInstance()
         midOfDay.set(Calendar.HOUR_OF_DAY, 12)
@@ -21,7 +20,6 @@ object TimeChecker {
 
         val timeOfDay = Calendar.getInstance()
 
-        Log.d(TAG, "${timeOfDay.between(startOfDay, midOfDay)}")
         return timeOfDay.between(startOfDay, midOfDay)
 
     }
