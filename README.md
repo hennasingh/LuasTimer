@@ -16,9 +16,11 @@ Its a single screen app that uses MVVM and repository architecture pattern to di
 
 **Nexus6P**
 
+Stllorgan Inbound | Marlborough Outbound 
 --- | ---
-
 ![Stillorgan Stop](/images/forecast.png) | ![Marlborough Stop](/images/marStop.png)
+
+
 
 
 ### More Features to implement
