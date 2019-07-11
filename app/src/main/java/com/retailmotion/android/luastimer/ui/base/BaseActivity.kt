@@ -29,11 +29,15 @@ abstract class BaseActivity<VM : BaseViewModel> : AppCompatActivity() {
 
     protected open fun setupObservers() {
         viewModel.messageString.observe(this, Observer {
-            it.data?.run { showMessage(this) }
+            it.data?.run {
+                showMessage(this)
+            }
         })
 
         viewModel.messageStringId.observe(this, Observer {
-            it.data?.run { showMessage(this) }
+            it.data?.run {
+                showMessage(this)
+            }
         })
     }
 
