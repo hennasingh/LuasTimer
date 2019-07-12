@@ -15,7 +15,6 @@ import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
-import org.mockito.ArgumentMatchers.anyList
 import org.mockito.Mock
 import org.mockito.Mockito
 import org.mockito.junit.MockitoJUnitRunner
@@ -66,13 +65,19 @@ class ForecastViewModelTest {
         val action = "forecast"
         val stop = "sti"
         val encrypt = false
+        val listDirections = Single.just(listOf(directionList))
+
+        Mockito.doReturn(ForecastViewModel.INBOUND)
+            .`when`(directionList)
+            .name
 
         Mockito.doReturn(true)
             .`when`(networkHelper)
             .isNetworkConnected()
-        Mockito.doReturn(anyList<Direction>)
+        Mockito.doReturn(listDirections)
             .`when`(webRepository)
             .doStiInboundCall(action, stop, encrypt)
+        forecastViewModel.onCreate()
         forecastViewModel.getForecastData()
         testScheduler.triggerActions()
         assert(forecastViewModel.getLoadVisibility().value == false)
